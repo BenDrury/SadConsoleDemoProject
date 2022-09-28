@@ -17,6 +17,8 @@
 
     <PackageReference Include="MonoGame.Framework.WpfInterop" Version="1.9.1" />
 
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
     <ProjectReference Condition=" '$(UseProjectReferences)' == 'true' " Include="..\..\SadConsole\SadConsole.csproj" />
     <PackageReference Condition=" '$(UseProjectReferences)' != 'true' " Include="SadConsole" Version="9.2.0" />
 
